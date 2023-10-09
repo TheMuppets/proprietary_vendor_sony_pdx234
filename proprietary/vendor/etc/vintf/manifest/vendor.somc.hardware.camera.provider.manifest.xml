@@ -1,0 +1,12 @@
+<manifest version="1.0" type="device">
+    <!-- SOMC Camera -->
+    <hal format="aidl" override="true">
+        <name>android.hardware.camera.provider</name>
+        <version>1</version>
+        <interface>
+            <name>ICameraProvider</name>
+            <instance>internal/0</instance>
+            <instance>external/0</instance>
+        </interface>
+    </hal>
+</manifest>

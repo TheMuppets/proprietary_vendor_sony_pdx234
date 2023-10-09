@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+  Copyright (C) 2020 Sony Mobile Communications Inc.
+  All rights, including trade secret rights, reserved.
+-->
+<znr_platform_info>
+    <noise cameras="SMC12BX4 SUN12BS0 SEM52BC0 LGI12BC0 SEM12BC9">
+        <rec_info actuator="0000000020000000000000000000000000000000">  <!-- Front cam Physical -->
+            <noise_param sample_rate="44100">znr_Front_mono_44k.tbl</noise_param>
+            <noise_param sample_rate="48000">znr_Front_mono_48k.tbl</noise_param>
+        </rec_info>
+        <rec_info actuator="0000000000000000222000002221000022000000">  <!-- cam Logical -->
+            <noise_param sample_rate="44100">znr_Logical_mono_44k.tbl</noise_param>
+            <noise_param sample_rate="48000">znr_Logical_mono_48k.tbl</noise_param>
+        </rec_info>
+        <rec_info actuator="0000000000000000222000000000000000000000">  <!-- Wide cam Physical -->
+            <noise_param sample_rate="44100">znr_P_Wide_mono_44k.tbl</noise_param>
+            <noise_param sample_rate="48000">znr_P_Wide_mono_48k.tbl</noise_param>
+        </rec_info>
+        <rec_info actuator="0000000000000000000000002221000000000000">  <!-- Tele cam Physical -->
+            <noise_param sample_rate="44100">znr_P_Tele_mono_44k.tbl</noise_param>
+            <noise_param sample_rate="48000">znr_P_Tele_mono_48k.tbl</noise_param>
+        </rec_info>
+        <rec_info actuator="0000000000000000000000000000000022000000">  <!-- UWide cam Physical -->
+            <noise_param sample_rate="44100">znr_P_UWide_mono_44k.tbl</noise_param>
+            <noise_param sample_rate="48000">znr_P_UWide_mono_48k.tbl</noise_param>
+        </rec_info>
+        <rec_info actuator="default">
+            <noise_param sample_rate="44100">znr_default_44k.tbl</noise_param>
+            <noise_param sample_rate="48000">znr_default_48k.tbl</noise_param>
+        </rec_info>
+    </noise>
+    <noise cameras="default">
+        <rec_info actuator="default">
+            <noise_param sample_rate="44100">znr_default_44k.tbl</noise_param>
+            <noise_param sample_rate="48000">znr_default_48k.tbl</noise_param>
+        </rec_info>
+    </noise>
+</znr_platform_info>
