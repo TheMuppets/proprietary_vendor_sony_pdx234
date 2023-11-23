@@ -20,3 +20,5 @@ enableNCSService=TRUE
 enableDMEbasedMultiframe=TRUE
 enableInitRegDump=FALSE
 IFENumFramesHighBW=0
+enableInSensorZoom=TRUE
+enableDynamicModeSwitchVCUpdate=FALSE

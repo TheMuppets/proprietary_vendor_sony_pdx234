@@ -100,3 +100,9 @@ on post-fs-data
     # Camera sync
     chown cameraserver camera /dev/camera_sync
     chmod 0770 /dev/camera_sync
+
+    # HDMI
+    chown cameraserver camera /sys/devices/platform/soc/soc:somc_hdmi_detect/state
+    chmod 0644 /sys/devices/platform/soc/soc:somc_hdmi_detect/state
+    chown cameraserver camera /sys/devices/platform/soc/soc:somc_hdmi_detect/samplerate
+    chmod 0644  /sys/devices/platform/soc/soc:somc_hdmi_detect/samplerate

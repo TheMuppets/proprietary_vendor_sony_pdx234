@@ -45,13 +45,13 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pdx234/proprietary/vendor/camera/LGI12BC0/recognize_map_comp.dat:$(TARGET_COPY_OUT_VENDOR)/camera/LGI12BC0/recognize_map_comp.dat \
     vendor/sony/pdx234/proprietary/vendor/camera/LGI12BC0/scene_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/LGI12BC0/scene_detector.dat \
     vendor/sony/pdx234/proprietary/vendor/camera/MAUNAKEA_FW_DATA_1_0x16903000.dat:$(TARGET_COPY_OUT_VENDOR)/camera/MAUNAKEA_FW_DATA_1_0x16903000.dat \
-    vendor/sony/pdx234/proprietary/vendor/camera/MAUNAKEA_FW_DATA_1_0x16903010.dat:$(TARGET_COPY_OUT_VENDOR)/camera/MAUNAKEA_FW_DATA_1_0x16903010.dat \
+    vendor/sony/pdx234/proprietary/vendor/camera/MAUNAKEA_FW_DATA_1_0x16903040.dat:$(TARGET_COPY_OUT_VENDOR)/camera/MAUNAKEA_FW_DATA_1_0x16903040.dat \
     vendor/sony/pdx234/proprietary/vendor/camera/MAUNAKEA_FW_DATA_2_0x16903000.dat:$(TARGET_COPY_OUT_VENDOR)/camera/MAUNAKEA_FW_DATA_2_0x16903000.dat \
-    vendor/sony/pdx234/proprietary/vendor/camera/MAUNAKEA_FW_DATA_2_0x16903010.dat:$(TARGET_COPY_OUT_VENDOR)/camera/MAUNAKEA_FW_DATA_2_0x16903010.dat \
+    vendor/sony/pdx234/proprietary/vendor/camera/MAUNAKEA_FW_DATA_2_0x16903040.dat:$(TARGET_COPY_OUT_VENDOR)/camera/MAUNAKEA_FW_DATA_2_0x16903040.dat \
     vendor/sony/pdx234/proprietary/vendor/camera/MAUNAKEA_FW_DATA_4_0x16903000.dat:$(TARGET_COPY_OUT_VENDOR)/camera/MAUNAKEA_FW_DATA_4_0x16903000.dat \
-    vendor/sony/pdx234/proprietary/vendor/camera/MAUNAKEA_FW_DATA_4_0x16903010.dat:$(TARGET_COPY_OUT_VENDOR)/camera/MAUNAKEA_FW_DATA_4_0x16903010.dat \
+    vendor/sony/pdx234/proprietary/vendor/camera/MAUNAKEA_FW_DATA_4_0x16903040.dat:$(TARGET_COPY_OUT_VENDOR)/camera/MAUNAKEA_FW_DATA_4_0x16903040.dat \
     vendor/sony/pdx234/proprietary/vendor/camera/MAUNAKEA_FW_DATA_5_0x16903000.dat:$(TARGET_COPY_OUT_VENDOR)/camera/MAUNAKEA_FW_DATA_5_0x16903000.dat \
-    vendor/sony/pdx234/proprietary/vendor/camera/MAUNAKEA_FW_DATA_5_0x16903010.dat:$(TARGET_COPY_OUT_VENDOR)/camera/MAUNAKEA_FW_DATA_5_0x16903010.dat \
+    vendor/sony/pdx234/proprietary/vendor/camera/MAUNAKEA_FW_DATA_5_0x16903040.dat:$(TARGET_COPY_OUT_VENDOR)/camera/MAUNAKEA_FW_DATA_5_0x16903040.dat \
     vendor/sony/pdx234/proprietary/vendor/camera/Morpho/CLBokeh/MorphoBokeh.bin.89ec02e:$(TARGET_COPY_OUT_VENDOR)/camera/Morpho/CLBokeh/MorphoBokeh.bin.89ec02e \
     vendor/sony/pdx234/proprietary/vendor/camera/Morpho/CLBokeh/MorphoFormatUtil.bin.347db6fd:$(TARGET_COPY_OUT_VENDOR)/camera/Morpho/CLBokeh/MorphoFormatUtil.bin.347db6fd \
     vendor/sony/pdx234/proprietary/vendor/camera/Morpho/Halide/halide_13831235:$(TARGET_COPY_OUT_VENDOR)/camera/Morpho/Halide/halide_13831235 \
@@ -158,7 +158,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pdx234/proprietary/vendor/camera/SUN12BS0/recognize_map_comp.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SUN12BS0/recognize_map_comp.dat \
     vendor/sony/pdx234/proprietary/vendor/camera/SUN12BS0/scene_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SUN12BS0/scene_detector.dat \
     vendor/sony/pdx234/proprietary/vendor/camera/default.dat:$(TARGET_COPY_OUT_VENDOR)/camera/default.dat \
-    vendor/sony/pdx234/proprietary/vendor/camera/depth.dat:$(TARGET_COPY_OUT_VENDOR)/camera/depth.dat \
     vendor/sony/pdx234/proprietary/vendor/camera/display_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/display_ctrl.dat \
     vendor/sony/pdx234/proprietary/vendor/camera/file_animal_eye_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/file_animal_eye_detector.dat \
     vendor/sony/pdx234/proprietary/vendor/camera/file_autoexposure.dat:$(TARGET_COPY_OUT_VENDOR)/camera/file_autoexposure.dat \
@@ -207,7 +206,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pdx234/proprietary/vendor/etc/wifi/bdwlan.e31:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan.e31 \
     vendor/sony/pdx234/proprietary/vendor/etc/wifi/regdb.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/regdb.bin \
     vendor/sony/pdx234/proprietary/vendor/etc/wifi/wifi_txpower.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wifi_txpower.conf \
-    vendor/sony/pdx234/proprietary/vendor/etc/wifi/wpa_supplicant.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant.conf \
     vendor/sony/pdx234/proprietary/vendor/etc/zoom_noise_reduction/znr_Front_44k.tbl:$(TARGET_COPY_OUT_VENDOR)/etc/zoom_noise_reduction/znr_Front_44k.tbl \
     vendor/sony/pdx234/proprietary/vendor/etc/zoom_noise_reduction/znr_Front_48k.tbl:$(TARGET_COPY_OUT_VENDOR)/etc/zoom_noise_reduction/znr_Front_48k.tbl \
     vendor/sony/pdx234/proprietary/vendor/etc/zoom_noise_reduction/znr_Front_mono_44k.tbl:$(TARGET_COPY_OUT_VENDOR)/etc/zoom_noise_reduction/znr_Front_mono_44k.tbl \
