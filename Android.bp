@@ -17,3 +17,31 @@ prebuilt_etc_xml {
 	soc_specific: true,
 }
 
+install_symlink {
+	name: "bdwlan_bdwlan_symlink",
+	soc_specific: true,
+	installed_location: "firmware/kiwi/bdwlan.e17",
+	symlink_target: "/vendor/etc/wifi/bdwlan.e17",
+}
+
+install_symlink {
+	name: "bdwlan_bdwlan_symlink_1",
+	soc_specific: true,
+	installed_location: "firmware/kiwi/bdwlan.e30",
+	symlink_target: "/vendor/etc/wifi/bdwlan.e30",
+}
+
+install_symlink {
+	name: "bdwlan_bdwlan_symlink_2",
+	soc_specific: true,
+	installed_location: "firmware/kiwi/bdwlan.e31",
+	symlink_target: "/vendor/etc/wifi/bdwlan.e31",
+}
+
+install_symlink {
+	name: "regdb_regdb_symlink",
+	soc_specific: true,
+	installed_location: "firmware/kiwi/regdb.bin",
+	symlink_target: "/vendor/etc/wifi/regdb.bin",
+}
+

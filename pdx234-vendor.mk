@@ -612,3 +612,9 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     vendor.somc.hardware.camera.provider.manifest
+
+PRODUCT_PACKAGES += \
+    bdwlan_bdwlan_symlink \
+    bdwlan_bdwlan_symlink_1 \
+    bdwlan_bdwlan_symlink_2 \
+    regdb_regdb_symlink
