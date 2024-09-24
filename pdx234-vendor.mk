@@ -611,7 +611,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pdx234/proprietary/vendor/lib64/vendor.somc.hardware.videoeffect-V1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.somc.hardware.videoeffect-V1-impl.so
 
 PRODUCT_PACKAGES += \
-    vendor.somc.hardware.camera.provider.manifest
+    vendor.somc.hardware.camera.provider.manifest.xml
 
 PRODUCT_PACKAGES += \
     bdwlan_bdwlan_symlink \

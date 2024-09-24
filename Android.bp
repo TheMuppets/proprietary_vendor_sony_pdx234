@@ -9,7 +9,7 @@ soong_namespace {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.somc.hardware.camera.provider.manifest",
+	name: "vendor.somc.hardware.camera.provider.manifest.xml",
 	owner: "sony",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.somc.hardware.camera.provider.manifest.xml",
 	filename_from_src: true,
