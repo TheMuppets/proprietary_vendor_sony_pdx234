@@ -57,6 +57,7 @@
     <screenBrightnessRampFastIncrease>0.8</screenBrightnessRampFastIncrease>
     <screenBrightnessRampSlowDecrease>0.0167</screenBrightnessRampSlowDecrease>
     <screenBrightnessRampSlowIncrease>0.4</screenBrightnessRampSlowIncrease>
+    <screenBrightnessRampIncreaseMaxMillis>750</screenBrightnessRampIncreaseMaxMillis>
     <perceptionMap>
         <perceptionPoint brightness="0" perception="0"/>
         <perceptionPoint brightness="0.01" perception="0.17320508"/>
