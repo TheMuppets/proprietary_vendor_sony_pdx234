@@ -11,7 +11,6 @@ soong_namespace {
         "vendor/qcom/opensource/commonsys/display",
         "vendor/qcom/opensource/commonsys-intf/display",
         "vendor/qcom/opensource/dataservices",
-        "vendor/sony/pdx234",
         "vendor/sony/sm8550-common",
 	],
 }
@@ -3551,23 +3550,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libc++_shared",
-	owner: "sony",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libc++_shared.so"],
-			shared_libs: ["libc", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libcamerapostproc",
 	owner: "sony",
 	strip: {
@@ -5592,23 +5574,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.semc.hardware.extlight-V1-ndk_platform",
-	owner: "sony",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/vendor.semc.hardware.extlight-V1-ndk_platform.so"],
-			shared_libs: ["libbinder_ndk", "android.hardware.light-V1-ndk", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "vendor.somc.camera.device-impl",
 	owner: "sony",
 	strip: {
@@ -5618,23 +5583,6 @@ cc_prebuilt_library_shared {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.somc.camera.device-impl.so"],
 			shared_libs: ["libutils", "libcutils", "liblog", "libgralloctypes", "libhidlbase", "libfmq", "libsync", "libyuv", "libjpeg", "libexif", "libgralloc.qti", "android.hardware.graphics.mapper@2.0", "android.hardware.graphics.mapper@3.0", "android.hardware.graphics.mapper@4.0", "android.hardware.camera.common-V1-ndk", "android.hardware.camera.device-V1-ndk", "android.hardware.camera.metadata-V1-ndk", "android.hardware.camera.provider-V1-ndk", "android.hardware.common.fmq-V1-ndk", "vendor.qti.hardware.display.mapper@4.0", "libbinder_ndk", "libqdMetaData", "libcammw", "libsomc_camerapal", "libsomc_camerahal", "libsomc_formatconverter", "libsomc_cheesescone", "libsomc_drops", "libsomc_pocky", "local_libcamera_metadata", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "vendor.somc.hardware.videoeffect-V1-impl",
-	owner: "sony",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/vendor.somc.hardware.videoeffect-V1-impl.so"],
-			shared_libs: ["libutils", "liblog", "libcutils", "libbinder_ndk", "vendor.somc.hardware.videoeffect-V1-ndk_platform", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",

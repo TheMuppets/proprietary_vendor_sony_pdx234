@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+
+<!-- Copyright (C) 2020 Google Inc.
+     Copyright (C) 2021 Sony Corporation
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+    NOTE: This file has been modified by Sony Corporation.
+    Modifications are licensed under the License.
+-->
+
+<displayConfiguration>
+    <screenBrightnessMap>
+        <point>
+            <value>0.002</value>
+            <nits>2.0</nits>
+        </point>
+        <point>
+            <value>1.0</value>
+            <nits>1000.0</nits>
+        </point>
+    </screenBrightnessMap>
+    <screenBrightnessDefault>0.3</screenBrightnessDefault>
+    <highBrightnessMode enabled="true">
+        <transitionPoint>0.65</transitionPoint>
+        <minimumLux>10000.0</minimumLux>
+        <timing>
+                <timeWindowSecs>60</timeWindowSecs>
+                <timeMaxSecs>60</timeMaxSecs>
+                <timeMinSecs>0</timeMinSecs>
+        </timing>
+        <allowInLowPowerMode>false</allowInLowPowerMode>
+        <minimumHdrPercentOfScreen>0.15</minimumHdrPercentOfScreen>
+        <!--sdrHdrRatioMap, backed by spline, must have at least two entries -->
+        <sdrHdrRatioMap>
+            <point>
+                <sdrNits>2.0</sdrNits>
+                <hdrRatio>5.000</hdrRatio>
+            </point>
+            <point>
+                <sdrNits>1000.0</sdrNits>
+                <hdrRatio>5.000</hdrRatio>
+            </point>
+        </sdrHdrRatioMap>
+    </highBrightnessMode>
+    <screenBrightnessRampFastDecrease>0.8</screenBrightnessRampFastDecrease>
+    <screenBrightnessRampFastIncrease>0.8</screenBrightnessRampFastIncrease>
+    <screenBrightnessRampSlowDecrease>0.0167</screenBrightnessRampSlowDecrease>
+    <screenBrightnessRampSlowIncrease>0.4</screenBrightnessRampSlowIncrease>
+    <perceptionMap>
+        <perceptionPoint brightness="0" perception="0"/>
+        <perceptionPoint brightness="0.01" perception="0.17320508"/>
+        <perceptionPoint brightness="0.02" perception="0.24494897"/>
+        <perceptionPoint brightness="0.03" perception="0.3"/>
+        <perceptionPoint brightness="0.04" perception="0.34641016"/>
+        <perceptionPoint brightness="0.05" perception="0.38729833"/>
+        <perceptionPoint brightness="0.06" perception="0.42426407"/>
+        <perceptionPoint brightness="0.07" perception="0.45825757"/>
+        <perceptionPoint brightness="0.08" perception="0.48989795"/>
+        <perceptionPoint brightness="0.09" perception="0.5189586"/>
+        <perceptionPoint brightness="0.1" perception="0.54408949"/>
+        <perceptionPoint brightness="0.2" perception="0.69389427"/>
+        <perceptionPoint brightness="0.3" perception="0.77425209"/>
+        <perceptionPoint brightness="0.4" perception="0.82949729"/>
+        <perceptionPoint brightness="0.5" perception="0.87164347"/>
+        <perceptionPoint brightness="0.6" perception="0.90572696"/>
+        <perceptionPoint brightness="0.7" perception="0.93434274"/>
+        <perceptionPoint brightness="0.8" perception="0.95900495"/>
+        <perceptionPoint brightness="0.9" perception="0.9806746"/>
+        <perceptionPoint brightness="1" perception="1"/>
+    </perceptionMap>
+    <densityMapping>
+          <density>
+            <height>2560</height>
+            <width>1096</width>
+            <density>420</density>
+          </density>
+          <density>
+            <height>3840</height>
+            <width>1644</width>
+            <density>630</density>
+          </density>
+    </densityMapping>
+</displayConfiguration>

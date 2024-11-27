@@ -196,10 +196,16 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pdx234/proprietary/vendor/camera/streaming.dat:$(TARGET_COPY_OUT_VENDOR)/camera/streaming.dat \
     vendor/sony/pdx234/proprietary/vendor/camera/supported.dat:$(TARGET_COPY_OUT_VENDOR)/camera/supported.dat \
     vendor/sony/pdx234/proprietary/vendor/camera/version.dat:$(TARGET_COPY_OUT_VENDOR)/camera/version.dat \
+    vendor/sony/pdx234/proprietary/vendor/etc/acdbdata/kalama_qrd/Sony_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/kalama_qrd/Sony_acdb_cal.acdb \
+    vendor/sony/pdx234/proprietary/vendor/etc/acdbdata/kalama_qrd/Sony_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/kalama_qrd/Sony_workspaceFileXml.qwsp \
     vendor/sony/pdx234/proprietary/vendor/etc/camera/camxoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camxoverridesettings.txt \
     vendor/sony/pdx234/proprietary/vendor/etc/display/qdcm_calib_data_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_1.json \
+    vendor/sony/pdx234/proprietary/vendor/etc/displayconfig/display_id_131.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_131.xml \
     vendor/sony/pdx234/proprietary/vendor/etc/init/vendor.somc.hardware.camera.provider@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.somc.hardware.camera.provider@1.0-service.rc \
     vendor/sony/pdx234/proprietary/vendor/etc/libhdr_somc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/libhdr_somc.xml \
+    vendor/sony/pdx234/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
+    vendor/sony/pdx234/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
+    vendor/sony/pdx234/proprietary/vendor/etc/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp_RF.conf \
     vendor/sony/pdx234/proprietary/vendor/etc/wifi/bdwlan.e17:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan.e17 \
     vendor/sony/pdx234/proprietary/vendor/etc/wifi/bdwlan.e30:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan.e30 \
     vendor/sony/pdx234/proprietary/vendor/etc/wifi/bdwlan.e31:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan.e31 \
@@ -262,6 +268,13 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pdx234/proprietary/vendor/firmware/R-cs35l45-dsp1-spk-cali.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/R-cs35l45-dsp1-spk-cali.wmfw \
     vendor/sony/pdx234/proprietary/vendor/firmware/R-cs35l45-dsp1-spk-prot.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/R-cs35l45-dsp1-spk-prot.bin \
     vendor/sony/pdx234/proprietary/vendor/firmware/R-cs35l45-dsp1-spk-prot.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/R-cs35l45-dsp1-spk-prot.wmfw \
+    vendor/sony/pdx234/proprietary/vendor/firmware/a740_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a740_sqe.fw \
+    vendor/sony/pdx234/proprietary/vendor/firmware/a740_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a740_zap.b00 \
+    vendor/sony/pdx234/proprietary/vendor/firmware/a740_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a740_zap.b01 \
+    vendor/sony/pdx234/proprietary/vendor/firmware/a740_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a740_zap.b02 \
+    vendor/sony/pdx234/proprietary/vendor/firmware/a740_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a740_zap.elf \
+    vendor/sony/pdx234/proprietary/vendor/firmware/a740_zap.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/a740_zap.mbn \
+    vendor/sony/pdx234/proprietary/vendor/firmware/a740_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a740_zap.mdt \
     vendor/sony/pdx234/proprietary/vendor/firmware/cs40l20.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs40l20.bin \
     vendor/sony/pdx234/proprietary/vendor/firmware/cs40l25a_a2h.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs40l25a_a2h.bin \
     vendor/sony/pdx234/proprietary/vendor/firmware/cs40l25a_a2h.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs40l25a_a2h.wmfw \
@@ -270,7 +283,36 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pdx234/proprietary/vendor/firmware/cs40l25a_a2h3.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs40l25a_a2h3.bin \
     vendor/sony/pdx234/proprietary/vendor/firmware/cs40l25a_cal.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs40l25a_cal.bin \
     vendor/sony/pdx234/proprietary/vendor/firmware/cs40l25a_cal.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs40l25a_cal.wmfw \
+    vendor/sony/pdx234/proprietary/vendor/firmware/evass.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b00 \
+    vendor/sony/pdx234/proprietary/vendor/firmware/evass.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b01 \
+    vendor/sony/pdx234/proprietary/vendor/firmware/evass.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b02 \
+    vendor/sony/pdx234/proprietary/vendor/firmware/evass.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b03 \
+    vendor/sony/pdx234/proprietary/vendor/firmware/evass.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b04 \
+    vendor/sony/pdx234/proprietary/vendor/firmware/evass.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b05 \
+    vendor/sony/pdx234/proprietary/vendor/firmware/evass.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b06 \
+    vendor/sony/pdx234/proprietary/vendor/firmware/evass.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b07 \
+    vendor/sony/pdx234/proprietary/vendor/firmware/evass.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b08 \
+    vendor/sony/pdx234/proprietary/vendor/firmware/evass.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b09 \
+    vendor/sony/pdx234/proprietary/vendor/firmware/evass.b10:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b10 \
+    vendor/sony/pdx234/proprietary/vendor/firmware/evass.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b11 \
+    vendor/sony/pdx234/proprietary/vendor/firmware/evass.b12:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b12 \
+    vendor/sony/pdx234/proprietary/vendor/firmware/evass.b13:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b13 \
+    vendor/sony/pdx234/proprietary/vendor/firmware/evass.b14:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b14 \
+    vendor/sony/pdx234/proprietary/vendor/firmware/evass.b15:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b15 \
+    vendor/sony/pdx234/proprietary/vendor/firmware/evass.b16:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b16 \
+    vendor/sony/pdx234/proprietary/vendor/firmware/evass.b17:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b17 \
+    vendor/sony/pdx234/proprietary/vendor/firmware/evass.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b18 \
+    vendor/sony/pdx234/proprietary/vendor/firmware/evass.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b19 \
+    vendor/sony/pdx234/proprietary/vendor/firmware/evass.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.mbn \
+    vendor/sony/pdx234/proprietary/vendor/firmware/evass.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.mdt \
+    vendor/sony/pdx234/proprietary/vendor/firmware/gmu_gen70200.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gmu_gen70200.bin \
     vendor/sony/pdx234/proprietary/vendor/firmware/touch_module_id_0x01.img:$(TARGET_COPY_OUT_VENDOR)/firmware/touch_module_id_0x01.img \
+    vendor/sony/pdx234/proprietary/vendor/firmware/vpu20_4v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.mbn \
+    vendor/sony/pdx234/proprietary/vendor/firmware/vpu20_4v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v_unsigned.mbn \
+    vendor/sony/pdx234/proprietary/vendor/firmware/vpu30_4v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu30_4v.mbn \
+    vendor/sony/pdx234/proprietary/vendor/firmware/vpu30_4v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu30_4v_unsigned.mbn \
+    vendor/sony/pdx234/proprietary/vendor/firmware/vpu33_4v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu33_4v.mbn \
+    vendor/sony/pdx234/proprietary/vendor/firmware/vpu33_4v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu33_4v_unsigned.mbn \
     vendor/sony/pdx234/proprietary/vendor/lib64/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.default.bin \
     vendor/sony/pdx234/proprietary/vendor/lib64/camera/com.sony.sensormodule.camino_imx650.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.sony.sensormodule.camino_imx650.bin \
     vendor/sony/pdx234/proprietary/vendor/lib64/camera/com.sony.sensormodule.crocus_imx663.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.sony.sensormodule.crocus_imx663.bin \
@@ -487,7 +529,6 @@ PRODUCT_PACKAGES += \
     libarcsoft_qnnhtp \
     libbitmlengine \
     libbitmlenginev2 \
-    libc++_shared \
     libcamerapostproc \
     libcammw \
     libcammw_util \
@@ -607,9 +648,7 @@ PRODUCT_PACKAGES += \
     local_libcamera_metadata \
     vendor.qti.hardware.camera.aon-service-impl \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
-    vendor.semc.hardware.extlight-V1-ndk_platform \
     vendor.somc.camera.device-impl \
-    vendor.somc.hardware.videoeffect-V1-impl \
     vendor.somc.hardware.camera.provider.manifest.xml \
     vendor.somc.hardware.camera.provider@1.0-service
 
