@@ -7693,7 +7693,7 @@ cc_prebuilt_library_shared {
                 "vendor.qti.hardware.display.mapper@4.0",
                 "libsnsutils",
                 "libbinder_ndk",
-                "android.hardware.light-V1-ndk_platform",
+                "android.hardware.light-V1-ndk",
                 "vendor.semc.hardware.extlight-V1-ndk_platform",
                 "libc++",
                 "libc",
